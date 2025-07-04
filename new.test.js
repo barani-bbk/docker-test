@@ -31,4 +31,8 @@ describe("isPrime", () => {
   test("4 is not prime", () => {
     expect(isPrime(4)).toBe(false);
   });
+
+  test("7 is prime", () => {
+    expect(isPrime(7)).toBe(true);
+  });
 });
