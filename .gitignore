@@ -1,11 +1,41 @@
-node_modules
+# Node modules
+node_modules/
 
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+
+# Jest cache
+jest.config.js
+jest-test-results.json
+
+# Build output
+dist/
+build/
+
+# Env files (if you add env vars later)
+.env
+.env.* 
+
+# OS-specific files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# ESLint cache
+.eslintcache
+
+# Optional: ignore uploaded artifacts if testing locally
+*.tgz
+
+# Optional: TypeScript build output (if you add TS later)
+*.tsbuildinfo
